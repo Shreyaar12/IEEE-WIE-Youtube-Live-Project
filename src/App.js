@@ -94,7 +94,9 @@ function App() {
               {el}
             </button>
           ))}
+          {/* mapped through the array of numbers */}
           {buttonsArray.map((el) => (
+            // an event is put to handle the input number value
             <button value={el} className="btn" onClick={inputNum}>
               {el}
             </button>
