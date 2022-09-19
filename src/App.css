@@ -1,14 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Trispace:wght@200;400;500;600&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Arimo" );
-@import url("https://fonts.googleapis.com/css?family=Quicksand:300,400" );
-@import url("https://fonts.googleapis.com/css?family=Raleway:300,400" );
-  
+@import url("https://fonts.googleapis.com/css?family=Arimo");
+@import url("https://fonts.googleapis.com/css?family=Quicksand:300,400");
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400");
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-
 
 body {
   font-family: "Trispace", sans-serif;
@@ -18,10 +17,17 @@ body {
   justify-content: center;
   height: 100vh;
   width: 100vw;
-  background: #DD5E89;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #F7BB97, #DD5E89);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #F7BB97, #DD5E89); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
+  background: #dd5e89; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #f7bb97,
+    #dd5e89
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #f7bb97,
+    #dd5e89
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .header {
@@ -29,7 +35,7 @@ body {
 }
 .header-title {
   margin: 1.5em 0 0.2em;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 300;
   font-size: 2.3em;
   color: #e6f2ff;
@@ -37,7 +43,7 @@ body {
 .header-description {
   max-width: 420px;
   margin: 1.5em auto 0;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: 400;
   font-size: 1em;
   color: #b3e6ff;
@@ -53,9 +59,8 @@ body {
   /* width: 400px; */
   max-width: 340px;
   /* background-color:#A27299 ; */
-    height: auto;
-    margin: 3em auto 2em;
-
+  height: auto;
+  margin: 3em auto 2em;
 
   backdrop-filter: blur(10px);
   /* border-radius: 20px; */
@@ -70,19 +75,15 @@ body {
   margin-top: -5em;
   padding: 0.2em 0.4em;
   width: 300px;
-    min-height: 95px;
-    margin: 1em auto;
-    padding: 0.5em;
-    box-sizing: border-box;
-    background-color: rgba(230, 247, 255, 0.9);
-    border: 1px solid #666;
-    font-family: 'Arimo', sans-serif;
-    position: relative;
-    word-wrap: break-word;
-    
-
-
- 
+  min-height: 95px;
+  margin: 1em auto;
+  padding: 0.5em;
+  box-sizing: border-box;
+  background-color: rgba(230, 247, 255, 0.9);
+  border: 1px solid #666;
+  font-family: "Arimo", sans-serif;
+  position: relative;
+  word-wrap: break-word;
 }
 
 .operator {
@@ -92,11 +93,10 @@ body {
 
 .buttons-num {
   display: grid;
-    
 
-    width: 99%;
-    color: #777;
-    font-size: 1.1em;
+  width: 99%;
+  color: #777;
+  font-size: 1.1em;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   column-gap: 10px;
