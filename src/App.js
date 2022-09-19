@@ -88,6 +88,7 @@ function App() {
             {" "}
             AC
           </button>
+          {/* Operators are handled in this using switch case */}
           {ops.map((el) => (
             <button value={el} className="btn" onClick={handleOperator}>
               {el}
