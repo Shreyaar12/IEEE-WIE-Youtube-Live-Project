@@ -88,11 +88,11 @@ function App() {
             {" "}
             AC
           </button>
-          {/* {ops.map((el) => (
+          {ops.map((el) => (
             <button value={el} className="btn" onClick={handleOperator}>
               {el}
             </button>
-          ))} */}
+          ))}
           {buttonsArray.map((el) => (
             <button value={el} className="btn" onClick={inputNum}>
               {el}
