@@ -101,6 +101,7 @@ function App() {
               {el}
             </button>
           ))}
+          {/* Calculate the final values with equal to sign */}
           <button value="=" className="btn btn-pink" onClick={calculate}>
             {" "}
             =
