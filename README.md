@@ -1,3 +1,10 @@
+# IEEE WIE YOUTUBE LIVE
+This project is a simple calculator made using React to teach fellow coders about the basic concepts of React and help them implement the same.\
+This project was explained on Youtube live on "Hooked on React"
+## Preview of the project 
+![Screenshot (1691)](https://user-images.githubusercontent.com/91542376/191196594-61dd97c9-2294-4e10-b513-e621f1ed6658.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
